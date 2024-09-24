@@ -8,8 +8,6 @@ import (
 	"strings"
 )
 
-const url = "http://services.explorecalifornia.org/json/tours.php"
-
 func main() {
 	client := http.Client{
 		Transport:     nil,
